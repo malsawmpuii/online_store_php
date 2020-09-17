@@ -1,0 +1,43 @@
+div.item{
+	position: relative;
+}
+
+div.item img{
+	height: 200px;
+	object-fit: cover;
+	width: 100%;
+}
+
+div.products img{
+	height: 200px;
+	object-fit: cover;
+	width: 100%;
+}
+#footer{
+	background-color: #075173;
+}
+#footer a{
+	background-color: #03fceb;
+}
+
+#count .p1[data-count]:after{
+  position: absolute;
+  right: 10%;
+  top:8%;
+  content: attr(data-count);
+  font-size: 70%;
+  padding: .2rem;
+  border-radius: 50%;
+  line-height: 1em;
+  color: white;
+  background: rgba(255,0,0,.85);
+  text-align: center;
+  min-width: 1em;
+  font-weight: bold;
+}
+@media only screen and (min-width: 768px){
+  #count{
+    font-size: 1.2rem;
+    margin-top: -0.5rem;
+  }
+}
